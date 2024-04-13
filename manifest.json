@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Swagbucks Survey Auto-Filler",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "https://www.swagbucks.com/*"
+  ]
+}
